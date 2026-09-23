@@ -1,299 +1,254 @@
-# **☕ Dirty Cafe Sales — Data Cleaning & Analysis with Python** 
+# ☕ Dirty Cafe Sales — Data Cleaning & Analysis with Python
 
-A practical data analytics project by **KeDataLab** demonstrating how to take a messy cafe sales dataset, clean it with Python, explore the data, and extract useful business insights. 
+A practical data analytics project by KeDataLab demonstrating how to take a messy cafe sales dataset, clean it with Python, explore the data, and extract useful business insights.
 
-The project is designed to reflect a common real-world analytics workflow: **raw data → data cleaning → exploration → analysis → insights** . 
+The project is designed to reflect a common real-world analytics workflow: raw data → data cleaning → exploration → analysis → insights.
 
-## **📌 Project Overview** 
+## Project Overview
 
-Real-world datasets are rarely clean. 
+Real-world datasets are rarely clean.
 
-This project uses a deliberately messy cafe sales dataset containing issues such as missing values, inconsistent entries, incorrect data types, and invalid values. 
+This project uses a deliberately messy cafe sales dataset containing issues such as missing values, inconsistent entries, incorrect data types, and invalid values.
 
-The goal is to use **Python and Pandas** to transform the raw data into a dataset that can be reliably analyzed. 
+The goal is to use Python and Pandas to transform the raw data into a dataset that can be reliably analyzed.
 
-The analysis covers: 
+The analysis covers:
 
-- Understanding the structure of a dataset 
+- Understanding the structure of a dataset
 
-- Identifying missing and invalid values 
+- Identifying missing and invalid values
 
-- 
+- Cleaning and transforming data
 
-- Cleaning and transforming data 
+- Working with categorical and numerical variables
 
-- 
+- Handling dates
 
-- Working with categorical and numerical variables 
+- Exploring sales patterns
 
-- 
+- Identifying popular products
 
-- Handling dates 
+- Calculating sales metrics
 
-- 
+- Extracting business insights from data
 
-- Exploring sales patterns 
+## Project Objectives
 
-- 
+By completing this project, we aim to:
 
-- Identifying popular products 
+-  Understand the quality of raw sales data.
 
-- 
+-  Identify problems that could affect analysis.
 
-- Calculating sales metrics 
+-  Clean and standardize the dataset.
 
-- 
+-  Perform exploratory data analysis (EDA).
 
-- Extracting business insights from data 
+-  Analyze product and sales performance.
 
-## **🎯 Project Objectives** 
+-  Communicate findings using Python visualizations.
 
-By completing this project, we aim to: 
 
-1. Understand the quality of raw sales data. 
+7. Demonstrate a complete practical data analytics workflow.
 
-- Identify problems that could affect analysis. 
+## Dataset
 
-2. 
+The project uses the Dirty Cafe Sales dataset, which contains approximately 10,000 cafe transaction records.
 
-3. Clean and standardize the dataset. 
+The dataset includes information such as:
 
-4. Perform exploratory data analysis (EDA). 
+- Transaction ID
 
-5. Analyze product and sales performance. 
+- Item
 
-6. Communicate findings using Python visualizations. 
+- Quantity
 
-7. Demonstrate a complete practical data analytics workflow. 
+- Price Per Unit
 
-## **~~<u><mark>📊</mark></u>~~ Dataset** 
+- Total Spent
 
-The project uses the **Dirty Cafe Sales** dataset, which contains approximately **10,000 cafe transaction records** . 
+- Payment Method
 
-The dataset includes information such as: 
+- Location
 
-- Transaction ID 
+- Transaction Date
 
-- Item 
+The dataset intentionally contains data quality problems that make it suitable for practicing data cleaning.
 
-- Quantity 
+Original dataset: Kaggle — Cafe Sales: Dirty Data for Cleaning Training
 
-- Price Per Unit 
+## Data Cleaning
 
-- Total Spent 
+The notebook demonstrates several common data-cleaning techniques using Pandas.
 
-- Payment Method • Location 
+Some of the tasks include:
 
-- Transaction Date 
+- Inspecting the dataset
 
-The dataset intentionally contains data quality problems that make it suitable for practicing data cleaning. 
+- Checking data types
 
-**Original dataset:** Kaggle — Cafe Sales: Dirty Data for Cleaning Training 
+- Identifying missing values
 
-## **🧹 Data Cleaning** 
+- Identifying duplicate records
 
-The notebook demonstrates several common data-cleaning techniques using Pandas. 
+- Detecting invalid values
 
-Some of the tasks include: 
+- Converting columns to appropriate data types
 
-- Inspecting the dataset 
+- Handling missing numerical values
 
-- Checking data types 
+- Handling missing categorical values
 
-- 
+- Cleaning date columns
 
-- Identifying missing values 
+- Standardizing inconsistent data
 
-- Identifying duplicate records 
+- Creating new analytical columns
 
-- 
+The objective is not simply to remove problematic rows, but to understand why the data is problematic and how it should be handled.
 
-- Detecting invalid values 
 
-- Converting columns to appropriate data types 
+## Exploratory Data Analysis
 
-- 
+After cleaning the dataset, the project explores questions such as:
 
-- Handling missing numerical values 
+## Product Performance
 
-- 
+- Which products are sold most frequently?
 
-- Handling missing categorical values 
+- Which products generate the most revenue?
 
-- 
+- What is the typical quantity purchased?
 
-- Cleaning date columns 
+- How does product performance vary?
 
-- 
+## Sales Performance
 
-- Standardizing inconsistent data 
+- What are the overall sales patterns?
 
-- 
+- How do sales change over time?
 
-- Creating new analytical columns 
+- Which periods have higher or lower sales?
 
-- 
+## Customer & Transaction Behaviour
 
-The objective is not simply to remove problematic rows, but to understand **why the data is problematic and how it should be handled** . 
+- Which payment methods are most commonly used?
 
+- How do transaction characteristics differ across categories?
 
-## **🔎 Exploratory Data Analysis** 
+- What patterns can be identified from the available data?
 
-After cleaning the dataset, the project explores questions such as: 
+## Visualizations
 
-### **Product Performance** 
+The analysis uses Python visualizations to make patterns easier to understand.
 
-- Which products are sold most frequently? 
+## Examples include:
 
-- Which products generate the most revenue? 
+- Bar charts
 
-- 
+- Histograms
 
-- What is the typical quantity purchased? 
+- Pie charts
 
-- 
+- Line charts
 
-- How does product performance vary? 
+- Distribution plots
 
-- 
+- Category comparisons
 
-### **Sales Performance** 
+The focus is on using visualizations to answer business questions, rather than creating charts simply for presentation.
 
-- What are the overall sales patterns? 
+## Tools & Technologies
 
-- How do sales change over time? 
+| Tool | Purpose |
+| --- | --- |
+| Python | Data analysis |
 
-- Which periods have higher or lower sales? 
 
-- 
+| Tool | Purpose |
+| --- | --- |
+| Pandas | Data manipulation and cleaning |
+| NumPy | Numerical operations |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| Jupyter Notebook | Analysis environment |   |
+| Git & GitHub | Version control and project sharing |
 
-### **Customer & Transaction Behaviour** 
-
-- Which payment methods are most commonly used? • How do transaction characteristics differ across categories? 
-
-- What patterns can be identified from the available data? 
-
-- 
-
-## **~~<u><mark>📈</mark></u>~~ Visualizations** 
-
-The analysis uses Python visualizations to make patterns easier to understand. 
-
-Examples include: 
-
-- Bar charts 
-
-- Histograms 
-
-- Pie charts 
-
-- 
-
-- Line charts 
-
-- 
-
-- Distribution plots 
-
-- 
-
-- Category comparisons 
-
-The focus is on using visualizations to answer **business questions** , rather than creating charts simply for presentation. 
-
-## **🛠️ Tools & Technologies** 
-
-|Tool|Purpose|
-|---|---|
-|Python|Data analysis|
-
-
-|Tool|Purpose|
-|---|---|
-|Pandas|Data manipulation and cleaning|
-|NumPy|Numerical operations|
-|Matplotlib|Data visualization|
-|Seaborn|Statistical visualization|
-|Jupyter Notebook|Analysis environment|
-|Git & GitHub|Version control and project sharing|
-
-
-
-## **📁 Repository Structure** 
-
-- `dirty-cafe-sales/ │ ├── Data/ │   └── cafe sales dataset` 
-
-- `│ ├── dirty cafe sales analysis.ipynb` 
-
-- `│ └── README.md` 
-
-## **🚀 How to Run the Project** 
-
-### **1. Clone the repository** 
+## Repository Structure
 
 ```
-gitclonehttps://github.com/KeDataLab/dirty-cafe-sales.git
+dirty-cafe-sales/
+│
+├── Data/
+│ └── cafe sales dataset
+│
+├── dirty cafe sales analysis.ipynb
+│
+└── README.md
 ```
 
-### **2. Navigate into the project** 
+## How to Run the Project
+
+## 1. Clone the repository
 
 ```
-cddirty-cafe-sales
+git clone https://github.com/KeDataLab/dirty-cafe-sales.git
 ```
 
-### **3. Install the required libraries** 
+## 2. Navigate into the project
 
-```
-pipinstallpandasnumpymatplotlibseabornjupyter
-```
+cd dirty-cafe-sales
+
+## 3. Install the required libraries
+
+pip install pandas numpy matplotlib seaborn jupyter
 
 
-### **4. Start Jupyter Notebook** 
+## 4. Start Jupyter Notebook
 
-```
-jupyternotebook
-```
+jupyter notebook
 
-### **5. Open the notebook** 
+## 5. Open the notebook
 
-Open: 
+Open:
 
-```
 dirty cafe sales analysis.ipynb
-```
 
-Run the notebook cells from top to bottom. 
+Run the notebook cells from top to bottom.
 
-## **🧠 What You Will Learn** 
+## What You Will Learn
 
-This project demonstrates an important principle in data analytics: 
+This project demonstrates an important principle in data analytics:
 
-#### **Good analysis starts with good data.** 
+## Good analysis starts with good data.
 
-Before creating dashboards or building machine-learning models, analysts need to understand the quality of their data and make appropriate decisions about missing, inconsistent and invalid values. 
+Before creating dashboards or building machine-learning models, analysts need to understand the quality of their data and make appropriate decisions about missing, inconsistent and invalid values.
 
-The project therefore focuses on the complete analytical process rather than jumping directly into visualization. 
+The project therefore focuses on the complete analytical process rather than jumping directly into visualization.
 
-## **💼 Business Value** 
+## Business Value
 
-Although this is a learning project, the workflow represents tasks commonly performed by data analysts in real organizations. 
+Although this is a learning project, the workflow represents tasks commonly performed by data analysts in real organizations.
 
-The same process can be applied to: 
+The same process can be applied to:
 
-- Retail sales 
+- Retail sales
 
-- Financial transactions 
+- Financial transactions
 
-- Customer data 
+- Customer data
 
-- Inventory records 
+- Inventory records
 
-- Marketing data 
+- Marketing data
 
-- Business operations 
+- Business operations
 
-- E-commerce data 
+- E-commerce data
 
-The objective is to turn **raw transactional data into information that can support business decisions** . 
-6 
+The objective is to turn raw transactional data into information that can support business decisions.
+GitHub: https://github.com/KeDataLab
 
+## If You Find This Project Useful
+
+If this project helps you learn data cleaning and analysis, consider giving the repository a on GitHub and exploring the other KeDataLab projects.
