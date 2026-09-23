@@ -1,10 +1,10 @@
-☕ Dirty Cafe Sales — Data Cleaning & Analysis
+# ☕ Dirty Cafe Sales — Data Cleaning & Analysis
 with Python
 A practical data analytics project by KeDataLab demonstrating how to take a messy cafe sales dataset,
 clean it with Python, explore the data, and extract useful business insights.
 The project is designed to reflect a common real-world analytics workflow: raw data → data cleaning →
 exploration → analysis → insights.
-📌 Project Overview
+## 📌 Project Overview
 Real-world datasets are rarely clean.
 This project uses a deliberately messy cafe sales dataset containing issues such as missing values,
 inconsistent entries, incorrect data types, and invalid values.
@@ -20,7 +20,7 @@ The analysis covers:
 • Identifying popular products
 • Calculating sales metrics
 • Extracting business insights from data
-🎯 Project Objectives
+## 🎯 Project Objectives
 By completing this project, we aim to:
 1. Understand the quality of raw sales data.
 2. Identify problems that could affect analysis.
@@ -29,7 +29,7 @@ By completing this project, we aim to:
 5. Analyze product and sales performance.
 6. Communicate findings using Python visualizations.
 7. Demonstrate a complete practical data analytics workflow.
-📊 Dataset
+## 📊 Dataset
 The project uses the Dirty Cafe Sales dataset, which contains approximately 10,000 cafe transaction
 records.
 The dataset includes information such as:
@@ -59,22 +59,22 @@ Some of the tasks include:
 • Creating new analytical columns
 The objective is not simply to remove problematic rows, but to understand why the data is problematic
 and how it should be handled.
-🔎 Exploratory Data Analysis
+## 🔎 Exploratory Data Analysis
 After cleaning the dataset, the project explores questions such as:
-Product Performance
+### Product Performance
 • Which products are sold most frequently?
 • Which products generate the most revenue?
 • What is the typical quantity purchased?
 • How does product performance vary?
-Sales Performance
+### Sales Performance
 • What are the overall sales patterns?
 • How do sales change over time?
 • Which periods have higher or lower sales?
-Customer & Transaction Behaviour
+### Customer & Transaction Behaviour
 • Which payment methods are most commonly used?
 • How do transaction characteristics differ across categories?
 • What patterns can be identified from the available data?
-📈 Visualizations
+## 📈 Visualizations
 The analysis uses Python visualizations to make patterns easier to understand.
 Examples include:
 • Bar charts
@@ -85,7 +85,7 @@ Examples include:
 • Category comparisons
 The focus is on using visualizations to answer business questions, rather than creating charts simply for
 presentation.
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 ToolPurpose
 PythonData analysis
 ToolPurpose
@@ -95,7 +95,7 @@ MatplotlibData visualization
 SeabornStatistical visualization
 Jupyter NotebookAnalysis environment
 Git & GitHubVersion control and project sharing
-📁 Repository Structure
+## 📁 Repository Structure
 dirty-cafe-sales/
 │
 ├── Data/
@@ -105,7 +105,7 @@ dirty-cafe-sales/
 ├── dirty cafe sales analysis.ipynb
 │
 └── README.md
-🚀 How to Run the Project
+## 🚀 How to Run the Project
 1. Clone the repository
 git clone https://github.com/KeDataLab/dirty-cafe-sales.git
 2. Navigate into the project
@@ -118,14 +118,14 @@ jupyter notebook
 Open:
 dirty cafe sales analysis.ipynb
 Run the notebook cells from top to bottom.
-🧠 What You Will Learn
+### 🧠 What You Will Learn
 This project demonstrates an important principle in data analytics:
 Good analysis starts with good data.
 Before creating dashboards or building machine-learning models, analysts need to understand the quality
 of their data and make appropriate decisions about missing, inconsistent and invalid values.
 The project therefore focuses on the complete analytical process rather than jumping directly into
 visualization.
-💼 Business Value
+### 💼 Business Value
 Although this is a learning project, the workflow represents tasks commonly performed by data analysts in
 real organizations.
 The same process can be applied to:
@@ -137,26 +137,3 @@ The same process can be applied to:
 • Business operations
 • E-commerce data
 The objective is to turn raw transactional data into information that can support business decisions.
-🎓 About KeDataLab
-KeDataLab is a practical data training and mentorship platform focused on helping learners develop real-
-world data skills.
-Our approach emphasizes:
-• Practical projects
-• Python
-• SQL
-• Power BI
-• Tableau
-• Data analysis
-• Portfolio development
-• Git & GitHub
-• Business problem solving
-Learn by building, not just by watching tutorials.
-📚 Project Source
-Dataset: Cafe Sales — Dirty Data for Cleaning Training
-The original dataset is available through Kaggle.
-👨‍💻 Author
-KeDataLab
-GitHub: https://github.com/KeDataLab
-⭐ If You Find This Project Useful
-If this project helps you learn data cleaning and analysis, consider giving the repository a ⭐ on GitHub and
-exploring the other KeDataLab projects.
