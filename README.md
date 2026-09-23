@@ -43,7 +43,7 @@ The dataset includes information such as:
 8. Transaction Date
 The dataset intentionally contains data quality problems that make it suitable for practicing data cleaning.
 Original dataset: Kaggle — Cafe Sales: Dirty Data for Cleaning Training
-🧹 Data Cleaning
+## 🧹 Data Cleaning
 The notebook demonstrates several common data-cleaning techniques using Pandas.
 Some of the tasks include:
 1. Inspecting the dataset
