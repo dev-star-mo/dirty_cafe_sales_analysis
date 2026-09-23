@@ -86,15 +86,14 @@ Examples include:
 The focus is on using visualizations to answer business questions, rather than creating charts simply for
 presentation.
 ## 🛠️ Tools & Technologies
-ToolPurpose
-PythonData analysis
-ToolPurpose
-PandasData manipulation and cleaning
-NumPyNumerical operations
-MatplotlibData visualization
-SeabornStatistical visualization
-Jupyter NotebookAnalysis environment
-Git & GitHubVersion control and project sharing
+Tool          Purpose
+Python        Data analysis
+Pandas        Data manipulation and cleaning
+NumPy         Numerical operations
+Matplotlib    Data visualization
+Seaborn       Statistical visualization
+Jupyter       NotebookAnalysis environment
+Git & GitHub  Version control and project sharing
 ## 📁 Repository Structure
 dirty-cafe-sales/
 │
