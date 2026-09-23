@@ -11,8 +11,8 @@ inconsistent entries, incorrect data types, and invalid values.
 The goal is to use Python and Pandas to transform the raw data into a dataset that can be reliably
 analyzed.
 The analysis covers:
-• Understanding the structure of a dataset
-Identifying missing and invalid values
+1. Understanding the structure of a dataset
+2. Identifying missing and invalid values
 • Cleaning and transforming data
 • Working with categorical and numerical variables
 • Handling dates
