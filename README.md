@@ -13,13 +13,13 @@ analyzed.
 The analysis covers:
 1. Understanding the structure of a dataset
 2. Identifying missing and invalid values
-• Cleaning and transforming data
-• Working with categorical and numerical variables
-• Handling dates
-• Exploring sales patterns
-• Identifying popular products
-• Calculating sales metrics
-• Extracting business insights from data
+3. Cleaning and transforming data
+4. Working with categorical and numerical variables
+5. Handling dates
+6. Exploring sales patterns
+7. Identifying popular products
+8. Calculating sales metrics
+9. Extracting business insights from data
 ## 🎯 Project Objectives
 By completing this project, we aim to:
 1. Understand the quality of raw sales data.
@@ -33,56 +33,56 @@ By completing this project, we aim to:
 The project uses the Dirty Cafe Sales dataset, which contains approximately 10,000 cafe transaction
 records.
 The dataset includes information such as:
-• Transaction ID
-• Item
-• Quantity
-• Price Per Unit
-• Total Spent
-• Payment Method
-• Location
-• Transaction Date
+1. Transaction ID
+2. Item
+3. Quantity
+4. Price Per Unit
+5. Total Spent
+6. Payment Method
+7. Location
+8. Transaction Date
 The dataset intentionally contains data quality problems that make it suitable for practicing data cleaning.
 Original dataset: Kaggle — Cafe Sales: Dirty Data for Cleaning Training
 🧹 Data Cleaning
 The notebook demonstrates several common data-cleaning techniques using Pandas.
 Some of the tasks include:
-• Inspecting the dataset
-• Checking data types
-• Identifying missing values
-• Identifying duplicate records
-• Detecting invalid values
-• Converting columns to appropriate data types
-• Handling missing numerical values
-• Handling missing categorical values
-• Cleaning date columns
-• Standardizing inconsistent data
-• Creating new analytical columns
+1. Inspecting the dataset
+2. Checking data types
+3. Identifying missing values
+4. Identifying duplicate records
+5. Detecting invalid values
+6. Converting columns to appropriate data types
+7. Handling missing numerical values
+8. Handling missing categorical values
+9. Cleaning date columns
+10. Standardizing inconsistent data
+11. Creating new analytical columns
 The objective is not simply to remove problematic rows, but to understand why the data is problematic
 and how it should be handled.
 ## 🔎 Exploratory Data Analysis
 After cleaning the dataset, the project explores questions such as:
 ### Product Performance
-• Which products are sold most frequently?
-• Which products generate the most revenue?
-• What is the typical quantity purchased?
-• How does product performance vary?
+1. Which products are sold most frequently?
+2. Which products generate the most revenue?
+3. What is the typical quantity purchased?
+4. How does product performance vary?
 ### Sales Performance
-• What are the overall sales patterns?
-• How do sales change over time?
-• Which periods have higher or lower sales?
+1. What are the overall sales patterns?
+2. How do sales change over time?
+3. Which periods have higher or lower sales?
 ### Customer & Transaction Behaviour
-• Which payment methods are most commonly used?
-• How do transaction characteristics differ across categories?
-• What patterns can be identified from the available data?
+1. Which payment methods are most commonly used?
+2. How do transaction characteristics differ across categories?
+3. What patterns can be identified from the available data?
 ## 📈 Visualizations
 The analysis uses Python visualizations to make patterns easier to understand.
 Examples include:
-• Bar charts
-• Histograms
-• Pie charts
-• Line charts
-• Distribution plots
-• Category comparisons
+1. Bar charts
+2. Histograms
+3. Pie charts
+4. Line charts
+5. Distribution plots
+6. Category comparisons
 The focus is on using visualizations to answer business questions, rather than creating charts simply for
 presentation.
 ## 🛠️ Tools & Technologies
@@ -129,11 +129,11 @@ visualization.
 Although this is a learning project, the workflow represents tasks commonly performed by data analysts in
 real organizations.
 The same process can be applied to:
-• Retail sales
-• Financial transactions
-• Customer data
-• Inventory records
-• Marketing data
-• Business operations
-• E-commerce data
+1. Retail sales
+2. Financial transactions
+3. Customer data
+4. Inventory records
+5. Marketing data
+6. Business operations
+7. E-commerce data
 The objective is to turn raw transactional data into information that can support business decisions.
