@@ -12,7 +12,7 @@ The goal is to use Python and Pandas to transform the raw data into a dataset th
 analyzed.
 The analysis covers:
 • Understanding the structure of a dataset
-• Identifying missing and invalid values
+Identifying missing and invalid values
 • Cleaning and transforming data
 • Working with categorical and numerical variables
 • Handling dates
