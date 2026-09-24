@@ -192,12 +192,12 @@ dirty-cafe-sales/
 ## 1. Clone the repository
 
 ```
-git clone https://github.com/KeDataLab/dirty-cafe-sales.git
+https://github.com/dev-star-mo/dirty_cafe_sales_analysis.git
 ```
 
 ## 2. Navigate into the project
 
-cd dirty-cafe-sales
+cd dirty_cafe_sales_analysis
 
 ## 3. Install the required libraries
 
